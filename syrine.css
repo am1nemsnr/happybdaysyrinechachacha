@@ -1,0 +1,111 @@
+/* General Reset */
+body, h1, h2, p, ul, ol, li, form, input, button, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f3fdfe;
+    color: #333;
+}
+
+/* Confetti Background */
+.confetti-bg {
+    background: linear-gradient(to bottom, #9adfff, #9adfff);
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: white;
+}
+.cta {
+    margin-top: 20px;
+    background-color: #61d2ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.cta:hover {
+    background-color: #61d2ff;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section h2 {
+    font-size: 2rem;
+    color: #61d2ff;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Gallery */
+.gallery .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Guest Wishes */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background-color: #61d2ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #61d2ff;
+}
+
+/* Footer */
+footer {
+    background-color: #61d2ff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
